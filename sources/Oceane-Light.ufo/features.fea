@@ -49,31 +49,7 @@ lookup ligaStandardLigaturesinLatinlookup2 {
     sub \l \i \g \h \t  by \light.liga;
 } ligaStandardLigaturesinLatinlookup2;
 
-feature aalt {
 
- script DFLT;
-     language dflt ;
-      lookup aaltAccessAllAlternatesinLatinlookup0;
-      lookup aaltAccessAllAlternatesinLatinlookup1;
-
- script latn;
-     language dflt ;
-      lookup aaltAccessAllAlternatesinLatinlookup0;
-      lookup aaltAccessAllAlternatesinLatinlookup1;
-} aalt;
-
-feature liga {
-
- script DFLT;
-     language dflt ;
-      lookup ligaStandardLigaturesinLatinlookup2;
-
- script latn;
-     language dflt ;
-      lookup ligaStandardLigaturesinLatinlookup2;
-} liga;
-
-# GPOS 
 
 
 lookup kernHorizontalKerninginLatinlookup0 {

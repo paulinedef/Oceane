@@ -45,29 +45,6 @@ lookup ligaStandardLigaturesinLatinlookup1 {
     sub \f \i \s \h  by \fish.liga;
 } ligaStandardLigaturesinLatinlookup1;
 
-feature aalt {
-
- script DFLT;
-     language dflt ;
-      lookup aaltAccessAllAlternatesinLatinlookup0;
-
- script latn;
-     language dflt ;
-      lookup aaltAccessAllAlternatesinLatinlookup0;
-} aalt;
-
-feature liga {
-
- script DFLT;
-     language dflt ;
-      lookup ligaStandardLigaturesinLatinlookup1;
-
- script latn;
-     language dflt ;
-      lookup ligaStandardLigaturesinLatinlookup1;
-} liga;
-
-# GPOS 
 
 
 lookup kernHorizontalKerninginLatinlookup0 {
