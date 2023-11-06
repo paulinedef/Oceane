@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Yacute" format="2">
+  <advance width="594"/>
+  <unicode hex="00DD"/>
+  <outline>
+    <contour>
+      <point x="385.307" y="746.204" type="line"/>
+      <point x="313.559" y="674.456" type="line" smooth="yes"/>
+      <point x="286.92" y="647.817"/>
+      <point x="243.73" y="647.817"/>
+      <point x="217.092" y="674.456" type="curve" smooth="yes"/>
+      <point x="205.466" y="686.082" type="line"/>
+      <point x="277.214" y="757.83" type="line" smooth="yes"/>
+      <point x="303.853" y="784.469"/>
+      <point x="347.042" y="784.469"/>
+      <point x="373.681" y="757.83" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="459.425" y="605.135" type="line" smooth="yes"/>
+      <point x="486.967" y="642.906"/>
+      <point x="539.922" y="651.218"/>
+      <point x="577.708" y="623.676" type="curve"/>
+      <point x="339.184" y="296.473" type="line"/>
+      <point x="339.184" y="84.6582" type="line" smooth="yes"/>
+      <point x="339.184" y="37.8984"/>
+      <point x="301.285" y="0"/>
+      <point x="254.525" y="0" type="curve"/>
+      <point x="254.525" y="296.473" type="line"/>
+      <point x="16.001" y="623.676" type="line"/>
+      <point x="53.7871" y="651.218"/>
+      <point x="106.74" y="642.921"/>
+      <point x="134.282" y="605.135" type="curve" smooth="yes"/>
+      <point x="296.854" y="382.117" type="line"/>
+    </contour>
+  </outline>
+</glyph>

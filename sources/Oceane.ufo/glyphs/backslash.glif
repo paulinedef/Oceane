@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="backslash" format="2">
+  <advance width="329"/>
+  <unicode hex="005C"/>
+  <outline>
+    <contour>
+      <point x="115.373" y="597.707" type="curve" smooth="yes"/>
+      <point x="265.033" y="1.4043" type="line"/>
+      <point x="242.345" y="-4.28223"/>
+      <point x="219.36" y="9.48926"/>
+      <point x="213.66" y="32.1631" type="curve" smooth="yes"/>
+      <point x="63.999" y="628.466" type="line"/>
+      <point x="86.6875" y="634.152"/>
+      <point x="109.687" y="620.381"/>
+    </contour>
+  </outline>
+</glyph>

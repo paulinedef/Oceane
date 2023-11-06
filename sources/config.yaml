@@ -1,7 +1,5 @@
 sources:
-  - Rubik.glyphs
-  - Rubik-Italic.glyphs
-axisOrder:
-  - wght
-  - ital
-familyName: Rubik
+  - Oceane-Bold.ufo
+  - Oceane-Light.ufo
+  - Ocean.ufo
+familyName: Oceane
