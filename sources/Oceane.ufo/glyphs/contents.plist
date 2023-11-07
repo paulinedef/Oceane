@@ -504,5 +504,7 @@
     <string>S_.alt1.glif</string>
     <key>fish.liga</key>
     <string>fish.liga.glif</string>
+    <key>onequarter</key>
+    <string>onequarter.glif</string>
   </dict>
 </plist>

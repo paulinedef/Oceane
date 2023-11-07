@@ -4,19 +4,28 @@
   <unicode hex="2039"/>
   <outline>
     <contour>
-      <point x="253.053" y="542.87" type="curve"/>
-      <point x="108.033" y="397.85" type="line"/>
-      <point x="253.053" y="252.83" type="line"/>
-      <point x="236.533" y="236.311"/>
-      <point x="209.724" y="236.311"/>
-      <point x="193.204" y="252.83" type="curve" smooth="yes"/>
-      <point x="64.9541" y="381.08" type="line" smooth="yes"/>
-      <point x="55.6846" y="390.33"/>
-      <point x="55.6846" y="405.36"/>
-      <point x="64.9541" y="414.63" type="curve" smooth="yes"/>
-      <point x="193.204" y="542.87" type="line" smooth="yes"/>
-      <point x="209.724" y="559.41"/>
-      <point x="236.533" y="559.41"/>
+      <point x="253" y="543" type="curve"/>
+      <point x="108" y="398" type="line"/>
+      <point x="253" y="253" type="line"/>
+      <point x="245" y="244.5"/>
+      <point x="234.25" y="240.25"/>
+      <point x="223.375" y="240.25" type="curve" smooth="yes"/>
+      <point x="212.5" y="240.25"/>
+      <point x="201.5" y="244.5"/>
+      <point x="193" y="253" type="curve" smooth="yes"/>
+      <point x="65" y="381" type="line" smooth="yes"/>
+      <point x="60.5" y="385.5"/>
+      <point x="58.25" y="391.5"/>
+      <point x="58.25" y="397.625" type="curve" smooth="yes"/>
+      <point x="58.25" y="403.75"/>
+      <point x="60.5" y="410"/>
+      <point x="65" y="415" type="curve" smooth="yes"/>
+      <point x="193" y="543" type="line" smooth="yes"/>
+      <point x="201.5" y="551"/>
+      <point x="212.5" y="555"/>
+      <point x="223.375" y="555" type="curve" smooth="yes"/>
+      <point x="234.25" y="555"/>
+      <point x="245" y="551"/>
     </contour>
   </outline>
 </glyph>

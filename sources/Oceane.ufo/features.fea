@@ -5,7 +5,7 @@ languagesystem latn dflt;
 # GSUB 
 
 
-lookup aaltAccessAllAlternatesinLatinlookup0 {
+lookup aaltActivertouteslesvariantesdansLatinlookup0 {
   lookupflag 0;
     sub \A by \A.alt1 ;
     sub \B by \B.alt1 ;
@@ -34,20 +34,43 @@ lookup aaltAccessAllAlternatesinLatinlookup0 {
     sub \Y by \Y.alt1 ;
     sub \Z by \Z.alt1 ;
     sub \quoteleft by \quoteleft.alt1 ;
-} aaltAccessAllAlternatesinLatinlookup0;
+} aaltActivertouteslesvariantesdansLatinlookup0;
 
-lookup ligaStandardLigaturesinLatinlookup1 {
+lookup ligaLigaturesstandarddansLatinlookup1 {
   lookupflag 0;
     sub \one \slash \three  by \oneslashthree.liga;
     sub \one \slash \four  by \oneslashfour.liga;
     sub \three \slash \four  by \threeslashfour.liga;
     sub \two \slash \three  by \twoslashthree.liga;
     sub \f \i \s \h  by \fish.liga;
-} ligaStandardLigaturesinLatinlookup1;
+} ligaLigaturesstandarddansLatinlookup1;
+
+feature aalt {
+
+ script DFLT;
+     language dflt ;
+      lookup aaltActivertouteslesvariantesdansLatinlookup0;
+
+ script latn;
+     language dflt ;
+      lookup aaltActivertouteslesvariantesdansLatinlookup0;
+} aalt;
+
+feature liga {
+
+ script DFLT;
+     language dflt ;
+      lookup ligaLigaturesstandarddansLatinlookup1;
+
+ script latn;
+     language dflt ;
+      lookup ligaLigaturesstandarddansLatinlookup1;
+} liga;
+
+# GPOS 
 
 
-
-lookup kernHorizontalKerninginLatinlookup0 {
+lookup kernCrnagehorizontaldansLatinlookup0 {
   lookupflag 0;
     pos \zero \nine -35;
     pos \zero \eight -34;
@@ -2976,50 +2999,23 @@ lookup kernHorizontalKerninginLatinlookup0 {
     pos @kc3_first_85 @kc3_second_49 -41;
     pos @kc3_first_85 @kc3_second_55 -40;
     pos @kc3_first_85 @kc3_second_57 -34;
-} kernHorizontalKerninginLatinlookup0;
+} kernCrnagehorizontaldansLatinlookup0;
 
 feature kern {
 
  script DFLT;
      language dflt ;
-      lookup kernHorizontalKerninginLatinlookup0;
+      lookup kernCrnagehorizontaldansLatinlookup0;
 
  script latn;
      language dflt ;
-      lookup kernHorizontalKerninginLatinlookup0;
+      lookup kernCrnagehorizontaldansLatinlookup0;
 } kern;
 
-@GDEF_Simple = [\.null \controlLF \controlCR \space \exclam \quotedbl \numbersign 
-	\dollar \percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus 
-	\comma \hyphen \period \slash \zero \one \two \three \four \five \six \seven \eight 
-	\nine \colon \semicolon \less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J 
-	\K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright 
-	\asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u 
-	\v \w \x \y \z \braceleft \verticalbar \braceright \asciitilde \nonbreakingspace 
-	\exclamdown \cent \sterling \currency \yen \section \dieresis \copyright 
-	\guillemotleft \softhyphen \registered \degree \plusminus \twosuperior 
-	\threesuperior \acute \paragraph \cedilla \onesuperior \guillemotright 
-	\questiondown \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \AE 
-	\Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex 
-	\Idieresis \Eth \Ntilde \Ograve \Oacute \Ocircumflex \Otilde \Odieresis 
-	\multiply \Oslash \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute \Thorn 
-	\germandbls \agrave \aacute \acircumflex \atilde \adieresis \aring \ae \ccedilla 
-	\egrave \eacute \ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis 
-	\eth \ntilde \ograve \oacute \ocircumflex \otilde \divide \oslash \ugrave \uacute 
-	\ucircumflex \udieresis \yacute \thorn \ydieresis \dotlessi \Lslash \lslash \OE 
-	\oe \Scaron \scaron \Ydieresis \Zcaron \zcaron \circumflex \caron \ilde \endash 
-	\emdash \quoteleft \quoteright \quotesinglbase \quoteleftreversed 
-	\quotedblleft \quotedblright \quotedblbase \dagger \daggerdbl \bullet 
-	\ellipsis \perthousand \guilsinglleft \guilsinglright \fraction \foursuperior 
-	\eightsuperior \Euro \trademark \minus \quoteleft.alt1 \A.alt1 \B.alt1 \C.alt1 
-	\D.alt1 \E.alt1 \F.alt1 \G.alt1 \H.alt1 \I.alt1 \J.alt1 \K.alt1 \L.alt1 \M.alt1 
-	\N.alt1 \O.alt1 \P.alt1 \Q.alt1 \R.alt1 \Y.alt1 \Z.alt1 \X.alt1 \W.alt1 \V.alt1 
-	\U.alt1 \T.alt1 \S.alt1 ];
-@GDEF_Ligature = [\oneslashthree.liga \oneslashfour.liga \threeslashfour.liga 
-	\twoslashthree.liga \fish.liga ];
+@GDEF_Simple = [\onequarter ];
 
 table GDEF {
-  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, , ;
+  GlyphClassDef @GDEF_Simple, , , ;
 
 } GDEF;
 
