@@ -3,3 +3,5 @@ sources:
 axisOrder:
   - wght
 familyName: Oceane
+
+outputDir: "../fonts"
