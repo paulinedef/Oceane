@@ -13,7 +13,7 @@ fontbakery version: 0.10.3
 * 🔥 **FAIL** The following unacceptable control characters were identified:
  fonts/ttf/Oceane.ttf: uni000A
  [code: unacceptable]
-</div></details><br></div></details><details><summary><b>[23] Oceane.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[21] Oceane.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "Oceane-Regular.ttf. Got Oceane.ttf. [code: bad-filename]
@@ -396,26 +396,16 @@ fontbakery version: 0.10.3
 
 	- 0x02DB (OGONEK)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Substitute copyright, registered and trademark symbols in name table entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/unwanted_chars">com.google.fonts/check/name/unwanted_chars</a>)</summary><div>
-
-
-* 🔥 **FAIL** NAMEID #0 contains symbols that should be replaced by '(c)'. [code: unwanted-chars]
-* 🔥 **FAIL** NAMEID #7 contains symbols that should be replaced by '(tm)'. [code: unwanted-chars]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "The Océane typeface is made available under the terms of this license.  1. Permission  You are allowed to:  - Use the Océane typeface for any project, personal or commercial. - Share the Océane typeface with others, provided you give them a copy of this license.  2. Restrictions  You are not allowed to:  - Modify the Océane typeface in any way. - Distribute copies of the modified Océane typeface. - Use the Océane typeface in a way that could be harmful to its author or reputation.  3. Copyright  Pauline Defoort holds the copyright of the Océane typeface. All rights reserved.  4. Limitation of Liability  The Océane typeface is provided "as is," without any warranty of any kind. Pauline Defoort shall not be liable for any damage resulting from its use.  By using the Océane typeface, you agree to the terms of this license." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Are there non-ASCII characters in ASCII-only NAME table entries? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/ascii_only_entries">com.google.fonts/check/name/ascii_only_entries</a>)</summary><div>
-
-
-* 🔥 **FAIL** Bad string at [nameID 0, 'utf_16_be']: 'b'&#169;'' [code: bad-string]
-* 🔥 **FAIL** There are 1 strings containing non-ASCII characters in the ASCII-only NAME table entries. [code: non-ascii-strings]
+* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
 </div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
 
 
 * 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
 But instead we have got:
-"©" [code: bad-notice-format]
+"Pauline Defoort" [code: bad-notice-format]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -444,11 +434,25 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 240, but got 239 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* 🔥 **FAIL** head version is "1.00000" while name version string (for platform 1, encoding 0) is "Version 1.030;Fontself Maker 3.5.8". [code: mismatch]
-* 🔥 **FAIL** head version is "1.00000" while name version string (for platform 3, encoding 1) is "Version 1.030;Fontself Maker 3.5.8". [code: mismatch]
+* 🔥 **FAIL** The following glyphs have no contours even though they were expected to have some:
+
+	- Glyph name: C	Expected: 1
+
+	- Glyph name: C	Expected: 1
+ [code: no-contour]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: at	Contours detected: 3	Expected: 2
+
+	- Glyph name: o	Contours detected: 2	Expected: 4
+
+	- Glyph name: at	Contours detected: 3	Expected: 2
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -464,7 +468,7 @@ But instead we have got:
     definitions.
 
  * U+000A : try adding symbols
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+201B SINGLE HIGH-REVERSED-9 QUOTATION MARK: try adding adlam
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
@@ -490,9 +494,6 @@ But instead we have got:
  * U+F012 : not included in any glyphset definition
  * U+F017 : not included in any glyphset definition
  * U+F018 : not included in any glyphset definition
- * U+F019 : not included in any glyphset definition
- * U+F01A : not included in any glyphset definition
- * U+F01B : not included in any glyphset definition
  * U+F01E : not included in any glyphset definition
  * U+F01F : not included in any glyphset definition
  * U+F020 : not included in any glyphset definition
@@ -516,12 +517,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- slash + three
 
-	- three + slash
-
-	- slash + four
-
-	- two + slash
-
 	- f + i
 
 	- i + s
@@ -531,19 +526,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: at	Contours detected: 3	Expected: 2
-
-	- Glyph name: o	Contours detected: 2	Expected: 4
-
-	- Glyph name: at	Contours detected: 3	Expected: 2
- [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
 
 
@@ -577,6 +559,14 @@ minus
 
 * ⚠ **WARN** This font has a digital signature (DSIG table) which is only required - even if only a placeholder - on old programs like MS Office 2013 in order to work properly.
 The current recommendation is to completely remove the DSIG table. [code: found-DSIG]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* AE (U+00C6): L<<302.0,640.0>--<303.0,640.0>> -> L<<303.0,640.0>--<305.0,640.0>>
+
+	* AE (U+00C6): L<<303.0,640.0>--<305.0,640.0>> -> L<<305.0,640.0>--<672.0,640.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -617,8 +607,8 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 14 | 11 | 132 | 8 | 90 | 0 |
-| 0% | 5% | 4% | 52% | 3% | 35% | 0% |
+| 0 | 12 | 11 | 132 | 8 | 92 | 0 |
+| 0% | 5% | 4% | 52% | 3% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
