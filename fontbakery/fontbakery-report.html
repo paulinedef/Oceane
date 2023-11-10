@@ -128,19 +128,19 @@ ul {
             </tr>
             <tr>
                 <td>0</td>
-                <td>16</td>
+                <td>9</td>
                 <td>12</td>
                 <td>126</td>
                 <td>8</td>
-                <td>93</td>
+                <td>100</td>
             </tr>
             <tr>
                 <td>0%</td>
-                <td>8%</td>
+                <td>5%</td>
                 <td>6%</td>
-                <td>63%</td>
+                <td>64%</td>
                 <td>4%</td>
-                <td>46%</td>
+                <td>51%</td>
             </tr>
             </table>
             
@@ -166,18 +166,13 @@ ul {
     <p>FontBakery version: 0.10.3</p>
     
 <h2>Section: Google Fonts</h2>
-<span class='section__emoji'>🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</span>
+<span class='section__emoji'>🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</span>
 <h3>Does font file include unacceptable control character glyphs?</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/family/control_chars</div>
 
 <details><summary>🔥 <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following unacceptable control characters were identified:
 fonts/ttf/Oceane-Light.ttf: uni000A
 [code: unacceptable]</p>
-</span></li></ul></div></details>
-<h3>Checking file is named canonically.</h3>
-<div class='check__idlabel'>Check ID: com.google.fonts/check/canonical_filename</div>
-
-<details><summary>🔥 Oceane-Light.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Expected &quot;Oceane-Regular.ttf. Got Oceane-Light.ttf. [code: bad-filename]</p>
 </span></li></ul></div></details>
 <h3>Checking OS/2 achVendID.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/vendor_id</div>
@@ -575,7 +570,7 @@ subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
 <li>U+000A : try adding symbols</li>
-<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
 <li>U+201B SINGLE HIGH-REVERSED-9 QUOTATION MARK: try adding adlam</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
@@ -615,46 +610,16 @@ definitions.</p>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code> [code: unreachable-subsetting]</p>
 </span></li></ul></div></details>
-<h3>Substitute copyright, registered and trademark symbols in name table entries.</h3>
-<div class='check__idlabel'>Check ID: com.google.fonts/check/name/unwanted_chars</div>
-
-<details><summary>🔥 Oceane-Light.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>NAMEID #0 contains symbols that should be replaced by '(c)'. [code: unwanted-chars]</p>
-</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>NAMEID #7 contains symbols that should be replaced by '(tm)'. [code: unwanted-chars]</p>
-</span></li></ul></div></details>
-<h3>Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name.</h3>
-<div class='check__idlabel'>Check ID: com.google.fonts/check/usweightclass</div>
-
-<details><summary>🔥 Oceane-Light.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Best SubFamily name is 'Regular'. Expected OS/2 usWeightClass is 400, got 300. [code: bad-value]</p>
-</span></li></ul></div></details>
 <h3>Check copyright namerecords match license file.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/name/license</div>
 
-<details><summary>🔥 Oceane-Light.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;The Océane typeface is made available under the terms of this license.  1. Permission  You are allowed to:  - Use the Océane typeface for any project, personal or commercial. - Share the Océane typeface with others, provided you give them a copy of this license.  2. Restrictions  You are not allowed to:  - Modify the Océane typeface in any way. - Distribute copies of the modified Océane typeface. - Use the Océane typeface in a way that could be harmful to its author or reputation.  3. Copyright  Pauline Defoort holds the copyright of the Océane typeface. All rights reserved.  4. Limitation of Liability  The Océane typeface is provided &quot;as is,&quot; without any warranty of any kind. Pauline Defoort shall not be liable for any damage resulting from its use.  By using the Océane typeface, you agree to the terms of this license.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
-</span></li></ul></div></details>
-<h3>Are there non-ASCII characters in ASCII-only NAME table entries?</h3>
-<div class='check__idlabel'>Check ID: com.google.fonts/check/name/ascii_only_entries</div>
-
-<details><summary>🔥 Oceane-Light.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Bad string at [nameID 0, 'utf_16_be']: 'b'©'' [code: bad-string]</p>
-</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>There are 1 strings containing non-ASCII characters in the ASCII-only NAME table entries. [code: non-ascii-strings]</p>
-</span></li></ul></div></details>
-<h3>Copyright notices match canonical pattern in fonts</h3>
-<div class='check__idlabel'>Check ID: com.google.fonts/check/font_copyright</div>
-
-<details><summary>🔥 Oceane-Light.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
-But instead we have got:
-&quot;©&quot; [code: bad-notice-format]</p>
+<details><summary>🔥 Oceane-Light.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]</p>
 </span></li></ul></div></details>
 <h3><div style='color:#88c'>EXPERIMENTAL CHECK - Since 2023/Nov/02</div>Shapes languages in all GF glyphsets.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/glyphsets/shape_languages</div>
 
 <details><summary>🔥 Oceane-Light.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>GF_Latin_Kernel/kl_Latn (Kalaallisut): [FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̊] [code: failed-language-shaping]</p>
 </span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>GF_Latin_Kernel/zu_Latn (Zulu): [FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̄, ◌̆, ◌̈, ◌̊, ◌̧] [code: failed-language-shaping]</p>
-</span></li></ul></div></details>
-<h3>Font has all mandatory 'name' table entries?</h3>
-<div class='check__idlabel'>Check ID: com.google.fonts/check/name/mandatory_entries</div>
-
-<details><summary>🔥 Oceane-Light.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font lacks entry with nameId=16 (TYPOGRAPHIC_FAMILY_NAME) [code: missing-entry]</p>
-</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font lacks entry with nameId=17 (TYPOGRAPHIC_SUBFAMILY_NAME) [code: missing-entry]</p>
 </span></li></ul></div></details>
 <h3>Font enables smart dropout control in "prep" table instructions?</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/smart_dropout</div>
@@ -757,14 +722,6 @@ divide</p>
 <p>Width = 392:
 minus
 [code: width-outliers]</p>
-</span></li></ul></div></details>
-<h2>Section: fontbakery.profiles.head</h2>
-<span class='section__emoji'>🔥⏩</span>
-<h3>Checking font version fields (head and name table).</h3>
-<div class='check__idlabel'>Check ID: com.google.fonts/check/font_version</div>
-
-<details><summary>🔥 Oceane-Light.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>head version is &quot;1.00000&quot; while name version string (for platform 1, encoding 0) is &quot;Version 1.049;Fontself Maker 3.5.8&quot;. [code: mismatch]</p>
-</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>head version is &quot;1.00000&quot; while name version string (for platform 3, encoding 1) is &quot;Version 1.049;Fontself Maker 3.5.8&quot;. [code: mismatch]</p>
 </span></li></ul></div></details>
 <h2>Section: fontbakery.profiles.name</h2>
 <span class='section__emoji'>🔥⏩⏩</span>

@@ -13,11 +13,7 @@ fontbakery version: 0.10.3
 * 🔥 **FAIL** The following unacceptable control characters were identified:
  fonts/ttf/Oceane-Light.ttf: uni000A
  [code: unacceptable]
-</div></details><br></div></details><details><summary><b>[26] Oceane-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
-
-
-* 🔥 **FAIL** Expected "Oceane-Regular.ttf. Got Oceane-Light.ttf. [code: bad-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[19] Oceane-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -396,35 +392,10 @@ fontbakery version: 0.10.3
 
 	- 0x02DB (OGONEK)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Substitute copyright, registered and trademark symbols in name table entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/unwanted_chars">com.google.fonts/check/name/unwanted_chars</a>)</summary><div>
-
-
-* 🔥 **FAIL** NAMEID #0 contains symbols that should be replaced by '(c)'. [code: unwanted-chars]
-* 🔥 **FAIL** NAMEID #7 contains symbols that should be replaced by '(tm)'. [code: unwanted-chars]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
-
-
-* 🔥 **FAIL** Best SubFamily name is 'Regular'. Expected OS/2 usWeightClass is 400, got 300. [code: bad-value]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "The Océane typeface is made available under the terms of this license.  1. Permission  You are allowed to:  - Use the Océane typeface for any project, personal or commercial. - Share the Océane typeface with others, provided you give them a copy of this license.  2. Restrictions  You are not allowed to:  - Modify the Océane typeface in any way. - Distribute copies of the modified Océane typeface. - Use the Océane typeface in a way that could be harmful to its author or reputation.  3. Copyright  Pauline Defoort holds the copyright of the Océane typeface. All rights reserved.  4. Limitation of Liability  The Océane typeface is provided "as is," without any warranty of any kind. Pauline Defoort shall not be liable for any damage resulting from its use.  By using the Océane typeface, you agree to the terms of this license." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Are there non-ASCII characters in ASCII-only NAME table entries? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/ascii_only_entries">com.google.fonts/check/name/ascii_only_entries</a>)</summary><div>
-
-
-* 🔥 **FAIL** Bad string at [nameID 0, 'utf_16_be']: 'b'&#169;'' [code: bad-string]
-* 🔥 **FAIL** There are 1 strings containing non-ASCII characters in the ASCII-only NAME table entries. [code: non-ascii-strings]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"©" [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font has all mandatory 'name' table entries? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/mandatory_entries">com.google.fonts/check/name/mandatory_entries</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font lacks entry with nameId=16 (TYPOGRAPHIC_FAMILY_NAME) [code: missing-entry]
-* 🔥 **FAIL** Font lacks entry with nameId=17 (TYPOGRAPHIC_SUBFAMILY_NAME) [code: missing-entry]
+* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
 
 
@@ -441,11 +412,6 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 770, but got 767 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** head version is "1.00000" while name version string (for platform 1, encoding 0) is "Version 1.049;Fontself Maker 3.5.8". [code: mismatch]
-* 🔥 **FAIL** head version is "1.00000" while name version string (for platform 3, encoding 1) is "Version 1.049;Fontself Maker 3.5.8". [code: mismatch]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
@@ -466,7 +432,7 @@ But instead we have got:
     definitions.
 
  * U+000A : try adding symbols
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+201B SINGLE HIGH-REVERSED-9 QUOTATION MARK: try adding adlam
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
@@ -632,8 +598,8 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 16 | 12 | 126 | 8 | 93 | 0 |
-| 0% | 6% | 5% | 49% | 3% | 36% | 0% |
+| 0 | 9 | 12 | 126 | 8 | 100 | 0 |
+| 0% | 4% | 5% | 49% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
