@@ -10,14 +10,14 @@ fontbakery version: 0.10.3
 * 🔥 **FAIL** GF_Latin_Core/an_Latn (Aragonese): [FAIL: Some mark glyphs were missing: ◌́, ◌̃] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/ban_Latn (Balinese): [FAIL: Some mark glyphs were missing: ◌́] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/eu_Latn (Basque): [FAIL: Some mark glyphs were missing: ◌̃, ◌̈] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/bs_Latn (Bosnian): [FAIL: Some base glyphs were missing: đ, FAIL: Some mark glyphs were missing: ◌́, ◌̌, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Core/bs_Latn (Bosnian): [FAIL: Some mark glyphs were missing: ◌́, ◌̌] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/br_Latn (Breton): [FAIL: Some base glyphs were missing: cʼh, FAIL: Some mark glyphs were missing: ◌̀, ◌̂, ◌̃, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/ca_Latn (Catalan): [FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̈, ◌̧] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/ch_Latn (Chamorro): [FAIL: Some mark glyphs were missing: ◌̃, ◌̊] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/chk_Latn (Chuukese): [FAIL: Some mark glyphs were missing: ◌́] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/kw_Latn (Cornish): [FAIL: Some mark glyphs were missing: ◌̀, ◌̂] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/co_Latn (Corsican): [FAIL: Some mark glyphs were missing: ◌̀, ◌̂, ◌̈] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/hr_Latn (Croatian): [FAIL: Some base glyphs were missing: đ, FAIL: Some mark glyphs were missing: ◌́, ◌̌, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Core/hr_Latn (Croatian): [FAIL: Some mark glyphs were missing: ◌́, ◌̌] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/cs_Latn (Czech): [FAIL: Some base glyphs were missing: ď, ť, FAIL: Some mark glyphs were missing: ◌́, ◌̊, ◌̌, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/da_Latn (Danish): [FAIL: Some mark glyphs were missing: ◌́, ◌̊] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/nl_Latn (Dutch): [FAIL: Some base glyphs were missing: íj́, FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
@@ -31,11 +31,11 @@ fontbakery version: 0.10.3
 * 🔥 **FAIL** GF_Latin_Core/lg_Latn (Ganda): [FAIL: Some base glyphs were missing: Ŋ, ŋ, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/de_Latn (German): [FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̈] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/aln_Latn (Gheg Albanian): [FAIL: Some mark glyphs were missing: ◌̈, ◌̧] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/haw_Latn (Hawaiian): [FAIL: Some base glyphs were missing: ō, ū, ʻ, FAIL: Some mark glyphs were missing: ◌̄, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Core/haw_Latn (Hawaiian): [FAIL: Some base glyphs were missing: ō, ʻ, FAIL: Some mark glyphs were missing: ◌̄, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/hu_Latn (Hungarian): [FAIL: Some mark glyphs were missing: ◌́, ◌̈, ◌̋] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/is_Latn (Icelandic): [FAIL: Some mark glyphs were missing: ◌́, ◌̈, ◌̨] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/ilo_Latn (Iloko): [FAIL: Some mark glyphs were missing: ◌̃] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/smn_Latn (Inari Sami): [FAIL: Some base glyphs were missing: đ, ŋ, FAIL: Some mark glyphs were missing: ◌́, ◌̂, ◌̈, ◌̊, ◌̌, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Core/smn_Latn (Inari Sami): [FAIL: Some base glyphs were missing: ŋ, FAIL: Some mark glyphs were missing: ◌́, ◌̂, ◌̈, ◌̊, ◌̌, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/ga_Latn (Irish): [FAIL: Some mark glyphs were missing: ◌́] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/it_Latn (Italian): [FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/jv_Latn (Javanese): [FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̂] [code: failed-language-shaping]
@@ -44,9 +44,9 @@ fontbakery version: 0.10.3
 * 🔥 **FAIL** GF_Latin_Core/krl_Latn (Karelian): [FAIL: Some mark glyphs were missing: ◌̈, ◌̌] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/csb_Latn (Kashubian): [FAIL: Some base glyphs were missing: Ą, ą, Ę, ę, Ń, ń, FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̇, ◌̈, ◌̨, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/kha_Latn (Khasi): [FAIL: Some mark glyphs were missing: ◌̃, ◌̈] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/ltg_Latn (Latgalian): [FAIL: Some base glyphs were missing: ō, Ū, ū, FAIL: Some mark glyphs were missing: ◌̄, ◌̌, ◌̧, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Core/ltg_Latn (Latgalian): [FAIL: Some base glyphs were missing: ō, FAIL: Some mark glyphs were missing: ◌̄, ◌̌, ◌̧, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/lij_Latn (Ligurian): [FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/lt_Latn (Lithuanian): [FAIL: Some base glyphs were missing: ą, ę, į, ū, ų, FAIL: Some mark glyphs were missing: ◌̄, ◌̇, ◌̌, ◌̨, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Core/lt_Latn (Lithuanian): [FAIL: Some base glyphs were missing: ą, ę, į, ų, FAIL: Some mark glyphs were missing: ◌̄, ◌̇, ◌̌, ◌̨, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/lmo_Latn (Lombard): [FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/nds_Latn (Low German): [FAIL: Some mark glyphs were missing: ◌̈] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/dsb_Latn (Lower Sorbian): [FAIL: Some base glyphs were missing: ń, ź, FAIL: Some mark glyphs were missing: ◌́, ◌̌, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
@@ -56,12 +56,12 @@ fontbakery version: 0.10.3
 * 🔥 **FAIL** GF_Latin_Core/mg_Latn (Malagasy): [FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̈] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/mt_Latn (Maltese): [FAIL: Some mark glyphs were missing: ◌̀, ◌̂, ◌̇] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/gv_Latn (Manx): [FAIL: Some mark glyphs were missing: ◌̧] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/mi_Latn (Maori): [FAIL: Some base glyphs were missing: ō, ū, FAIL: Some mark glyphs were missing: ◌̄, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/mh_Latn (Marshallese): [FAIL: Some base glyphs were missing: M̧, N̄, O̧, m̧, n̄, o̧, ō, Ū, ū, Ḷ, ḷ, Ṃ, ṃ, Ṇ, ṇ, Ọ, ọ, FAIL: Some mark glyphs were missing: ◌̄, ◌̣, ◌̧, ◌̨, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Core/mi_Latn (Maori): [FAIL: Some base glyphs were missing: ō, FAIL: Some mark glyphs were missing: ◌̄, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Core/mh_Latn (Marshallese): [FAIL: Some base glyphs were missing: M̧, N̄, O̧, m̧, n̄, o̧, ō, Ḷ, ḷ, Ṃ, ṃ, Ṇ, ṇ, Ọ, ọ, FAIL: Some mark glyphs were missing: ◌̄, ◌̣, ◌̧, ◌̨, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/mer_Latn (Meru): [FAIL: Some mark glyphs were missing: ◌̂, ◌̃] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/moh_Latn (Mohawk): [FAIL: Some mark glyphs were missing: ◌̀, ◌́] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/nap_Latn (Neapolitan): [FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̂] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/niu_Latn (Niuean): [FAIL: Some base glyphs were missing: ō, Ū, ū, FAIL: Some mark glyphs were missing: ◌̄, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Core/niu_Latn (Niuean): [FAIL: Some base glyphs were missing: ō, FAIL: Some mark glyphs were missing: ◌̄, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/ny_Latn (Nyanja): [FAIL: Some base glyphs were missing: Ŋ, ŋ, FAIL: Some mark glyphs were missing: ◌̂, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/oc_Latn (Occitan): [FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̈, ◌̧] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/pau_Latn (Palauan): [FAIL: Some base glyphs were missing: Ę, ę, FAIL: Some mark glyphs were missing: ◌̨, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
@@ -72,7 +72,7 @@ fontbakery version: 0.10.3
 * 🔥 **FAIL** GF_Latin_Core/qu_Latn (Quechua): [FAIL: Some base glyphs were missing: chʼ, kʼ, pʼ, qʼ, tʼ, FAIL: Some mark glyphs were missing: ◌̂, ◌̃, ◌̌, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/ro_Latn (Romanian): [FAIL: Some mark glyphs were missing: ◌̂, ◌̆, ◌̧, FAIL: in Romanian, S-cedilla should become S-comma-accent; both buffers returned .notdef=0+527] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/rm_Latn (Romansh): [FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/sm_Latn (Samoan): [FAIL: Some base glyphs were missing: ō, Ū, ū, FAIL: Some mark glyphs were missing: ◌̄, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Core/sm_Latn (Samoan): [FAIL: Some base glyphs were missing: ō, FAIL: Some mark glyphs were missing: ◌̄, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/sg_Latn (Sango): [FAIL: Some mark glyphs were missing: ◌̂, ◌̈] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/sbp_Latn (Sangu): [FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/sc_Latn (Sardinian): [FAIL: Some mark glyphs were missing: ◌̀, ◌̧] [code: failed-language-shaping]
@@ -89,11 +89,11 @@ fontbakery version: 0.10.3
 * 🔥 **FAIL** GF_Latin_Core/su_Latn (Sundanese): [FAIL: Some mark glyphs were missing: ◌́] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/sv_Latn (Swedish): [FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̈, ◌̊] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/gsw_Latn (Swiss German): [FAIL: Some mark glyphs were missing: ◌̈] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/ty_Latn (Tahitian): [FAIL: Some base glyphs were missing: ō, Ū, ū, FAIL: Some mark glyphs were missing: ◌̄, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Core/ty_Latn (Tahitian): [FAIL: Some base glyphs were missing: ō, FAIL: Some mark glyphs were missing: ◌̄, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/teo_Latn (Teso): [FAIL: Some base glyphs were missing: Ɔ, Ɛ, Ɨ, Ʉ, ɔ, ɛ, ɨ, ʉ, ᵃ, ᵉ, ᵋ, ᵒ, ᵓ, ᵘ, ᶤ, ᶶ, ⁱ, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/tet_Latn (Tetum): [FAIL: Some mark glyphs were missing: ◌́, ◌̃] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/tiv_Latn (Tiv): [FAIL: Some mark glyphs were missing: ◌̂] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/tkl_Latn (Tokelau): [FAIL: Some base glyphs were missing: ō, Ū, ū, FAIL: Some mark glyphs were missing: ◌̄, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Core/tkl_Latn (Tokelau): [FAIL: Some base glyphs were missing: ō, FAIL: Some mark glyphs were missing: ◌̄, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/tn_Latn (Tswana): [FAIL: Some mark glyphs were missing: ◌̂, ◌̌] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/tr_Latn (Turkish): [FAIL: Some base glyphs were missing: ş, FAIL: Some mark glyphs were missing: ◌̂, ◌̆, ◌̇, ◌̈, ◌̧, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core/aoz_Latn (Uab Meto): [FAIL: Some mark glyphs were missing: ◌́, ◌̂] [code: failed-language-shaping]
@@ -116,13 +116,7 @@ fontbakery version: 0.10.3
 * ⚠ **WARN** GF_Latin_Core/dyo_Latn (Jola-Fonyi): [WARN: No variant glyphs were found for .notdef] [code: warning-language-shaping]
 * ⚠ **WARN** GF_Latin_Core/ny_Latn (Nyanja): [WARN: No variant glyphs were found for .notdef] [code: warning-language-shaping]
 * ⚠ **WARN** GF_Latin_Core/wo_Latn (Wolof): [WARN: No variant glyphs were found for .notdef] [code: warning-language-shaping]
-</div></details><br></div></details><details><summary><b>[1] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Does font file include unacceptable control character glyphs? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/family/control_chars">com.google.fonts/check/family/control_chars</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following unacceptable control characters were identified:
- fonts/ttf/Oceane-Light.ttf: uni000A
- [code: unacceptable]
-</div></details><br></div></details><details><summary><b>[21] Oceane-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[25] Oceane-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -143,9 +137,6 @@ fontbakery version: 0.10.3
 
 
 	- 0x0104 (LATIN CAPITAL LETTER A WITH OGONEK)
-
-
-	- 0x0110 (LATIN CAPITAL LETTER D WITH STROKE)
 
 
 	- 0x0118 (LATIN CAPITAL LETTER E WITH OGONEK)
@@ -172,9 +163,6 @@ fontbakery version: 0.10.3
 	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
 
 
-	- 0x016A (LATIN CAPITAL LETTER U WITH MACRON)
-
-
 	- 0x0172 (LATIN CAPITAL LETTER U WITH OGONEK)
 
 
@@ -191,9 +179,6 @@ fontbakery version: 0.10.3
 
 
 	- 0x010F (LATIN SMALL LETTER D WITH CARON)
-
-
-	- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
 
 
 	- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
@@ -218,9 +203,6 @@ fontbakery version: 0.10.3
 
 
 	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
-
-
-	- 0x016B (LATIN SMALL LETTER U WITH MACRON)
 
 
 	- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
@@ -273,11 +255,25 @@ fontbakery version: 0.10.3
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
+* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "Developed by Pauline Defoort. Oceane is open source and licensed under OFL, the SIL Open Font License allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at https://scripts.sil.org/OFL
+
+" Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
+</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
+
+
+* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
+But instead we have got:
+"Pauline Defoort" [code: bad-notice-format]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
 
 
 * 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
+</div></details><details><summary>🔥 <b>FAIL:</b> Name table entries should not contain line-breaks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks">com.google.fonts/check/name/line_breaks</a>)</summary><div>
+
+
+* 🔥 **FAIL** Name entry LICENSE_DESCRIPTION on platform WINDOWS contains a line-break. [code: line-break]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -286,6 +282,12 @@ fontbakery version: 0.10.3
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/Oceane-Light.ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Name table records must not have trailing spaces. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces">com.google.fonts/check/name/trailing_spaces</a>)</summary><div>
+
+
+* 🔥 **FAIL** Name table record with key = (3, 1, 1033, 13) has trailing spaces that must be removed: 'Developed [...].org/OFL
+
+' [code: trailing-space]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -302,6 +304,7 @@ fontbakery version: 0.10.3
 * 🔥 **FAIL** Glyph "Ccaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "ccaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "Dcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "dcroat" has a legacy accent component (macron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "emacron" has a legacy accent component (macron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "ebreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "edotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
@@ -330,6 +333,7 @@ fontbakery version: 0.10.3
 * 🔥 **FAIL** Glyph "scircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "Utilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "utilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "umacron" has a legacy accent component (macron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "ubreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "uring" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "Uhungarumlaut" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
@@ -339,6 +343,11 @@ fontbakery version: 0.10.3
 * 🔥 **FAIL** Glyph "Ycircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "ycircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "zdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01CE" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01D0" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01D2" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni01D4" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni022F" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "Wdieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "wdieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
@@ -364,7 +373,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: at	Contours detected: 3	Expected: 2
 
-	- Glyph name: U	Contours detected: 2	Expected: 1
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
@@ -372,9 +381,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0237	Contours detected: 2	Expected: 1
 
-	- Glyph name: U	Contours detected: 2	Expected: 1
-
 	- Glyph name: at	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
@@ -401,11 +410,10 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+000A : try adding symbols
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
  * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
@@ -413,7 +421,8 @@ The following glyphs do not have the recommended number of contours:
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
  * U+2078 SUPERSCRIPT EIGHT: not included in any glyphset definition
- * U+2219 BULLET OPERATOR: try adding one of: yi, math, tai-tham, symbols
+ * U+217A SMALL ROMAN NUMERAL ELEVEN: try adding symbols
+ * U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, symbols, math
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
@@ -493,11 +502,11 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- U.alt1
+
 	- caron.salt
 
 	- dieresis.case
-
-	- quoteright
 
 	- uni0326.salt
  [code: unreachable-glyphs]
@@ -515,7 +524,7 @@ Width = 348:
 plus
 
 Width = 326:
-notequal, equal
+equal, notequal
 
 Width = 572:
 logicalnot
@@ -548,6 +557,208 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 uni0326 (U+0326) and uni0326.salt (unencoded) [code: spacing-mark-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* numbersign (U+0023): X=282.0,Y=1.0 (should be at baseline 0?)
+
+	* numbersign (U+0023): X=68.0,Y=1.0 (should be at baseline 0?)
+
+	* percent (U+0025): X=683.0,Y=639.0 (should be at cap-height 640?)
+
+	* ampersand (U+0026): X=289.0,Y=1.0 (should be at baseline 0?)
+
+	* slash (U+002F): X=64.0,Y=1.0 (should be at baseline 0?)
+
+	* one (U+0031): X=240.0,Y=639.0 (should be at cap-height 640?)
+
+	* one (U+0031): X=240.0,Y=639.0 (should be at cap-height 640?)
+
+	* two (U+0032): X=296.0,Y=639.0 (should be at cap-height 640?)
+
+	* four (U+0034): X=387.0,Y=641.0 (should be at cap-height 640?)
+
+	* five (U+0035): X=112.0,Y=639.0 (should be at cap-height 640?)
+
+	* five (U+0035): X=428.0,Y=639.0 (should be at cap-height 640?)
+
+	* seven (U+0037): X=477.0,Y=641.0 (should be at cap-height 640?)
+
+	* L (U+004C): X=80.0,Y=639.0 (should be at cap-height 640?)
+
+	* Z (U+005A): X=519.0,Y=1.0 (should be at baseline 0?)
+
+	* Z (U+005A): X=67.0,Y=641.0 (should be at cap-height 640?)
+
+	* Z (U+005A): X=514.0,Y=641.0 (should be at cap-height 640?)
+
+	* backslash (U+005C): X=251.0,Y=1.0 (should be at baseline 0?)
+
+	* b (U+0062): X=312.0,Y=481.0 (should be at x-height 480?)
+
+	* b (U+0062): X=312.0,Y=1.0 (should be at baseline 0?)
+
+	* b (U+0062): X=72.0,Y=1.0 (should be at baseline 0?)
+
+	* b (U+0062): X=312.0,Y=481.0 (should be at x-height 480?)
+
+	* c (U+0063): X=288.0,Y=482.0 (should be at x-height 480?)
+
+	* e (U+0065): X=287.0,Y=481.0 (should be at x-height 480?)
+
+	* k (U+006B): X=391.0,Y=-1.0 (should be at baseline 0?)
+
+	* k (U+006B): X=395.0,Y=479.0 (should be at x-height 480?)
+
+	* n (U+006E): X=286.0,Y=479.0 (should be at x-height 480?)
+
+	* n (U+006E): X=286.0,Y=479.0 (should be at x-height 480?)
+
+	* z (U+007A): X=495.0,Y=1.0 (should be at baseline 0?)
+
+	* cent (U+00A2): X=125.0,Y=1.0 (should be at baseline 0?)
+
+	* sterling (U+00A3): X=323.0,Y=642.0 (should be at cap-height 640?)
+
+	* copyright (U+00A9): X=307.0,Y=639.0 (should be at cap-height 640?)
+
+	* copyright (U+00A9): X=307.0,Y=639.0 (should be at cap-height 640?)
+
+	* registered (U+00AE): X=307.0,Y=639.0 (should be at cap-height 640?)
+
+	* registered (U+00AE): X=307.0,Y=639.0 (should be at cap-height 640?)
+
+	* twosuperior (U+00B2): X=180.5,Y=639.5 (should be at cap-height 640?)
+
+	* paragraph (U+00B6): X=225.0,Y=641.0 (should be at cap-height 640?)
+
+	* paragraph (U+00B6): X=423.0,Y=641.0 (should be at cap-height 640?)
+
+	* onesuperior (U+00B9): X=87.0,Y=638.0 (should be at cap-height 640?)
+
+	* onesuperior (U+00B9): X=47.0,Y=638.0 (should be at cap-height 640?)
+
+	* Ccedilla (U+00C7): X=334.0,Y=2.0 (should be at baseline 0?)
+
+	* germandbls (U+00DF): X=100.0,Y=1.0 (should be at baseline 0?)
+
+	* ccedilla (U+00E7): X=280.0,Y=-1.0 (should be at baseline 0?)
+
+	* egrave (U+00E8): X=257.0,Y=638.0 (should be at cap-height 640?)
+
+	* eacute (U+00E9): X=317.0,Y=638.0 (should be at cap-height 640?)
+
+	* igrave (U+00EC): X=27.0,Y=638.0 (should be at cap-height 640?)
+
+	* iacute (U+00ED): X=152.0,Y=638.0 (should be at cap-height 640?)
+
+	* ograve (U+00F2): X=257.0,Y=638.0 (should be at cap-height 640?)
+
+	* oacute (U+00F3): X=317.0,Y=638.0 (should be at cap-height 640?)
+
+	* Ccircumflex (U+0108): X=321.0,Y=801.0 (should be at ascender 802?)
+
+	* cdotaccent (U+010B): X=254.0,Y=641.0 (should be at cap-height 640?)
+
+	* edotaccent (U+0117): X=286.0,Y=641.0 (should be at cap-height 640?)
+
+	* gdotaccent (U+0121): X=288.0,Y=641.0 (should be at cap-height 640?)
+
+	* uni0123 (U+0123): X=291.0,Y=800.0 (should be at ascender 802?)
+
+	* uni0137 (U+0137): X=391.0,Y=-1.0 (should be at baseline 0?)
+
+	* kgreenlandic (U+0138): X=391.0,Y=-1.0 (should be at baseline 0?)
+
+	* Lacute (U+0139): X=80.0,Y=639.0 (should be at cap-height 640?)
+
+	* uni013B (U+013B): X=80.0,Y=639.0 (should be at cap-height 640?)
+
+	* Ldot (U+013F): X=80.0,Y=639.0 (should be at cap-height 640?)
+
+	* OE (U+0152): X=846.0,Y=1.0 (should be at baseline 0?)
+
+	* OE (U+0152): X=446.0,Y=1.0 (should be at baseline 0?)
+
+	* OE (U+0152): X=446.0,Y=641.0 (should be at cap-height 640?)
+
+	* OE (U+0152): X=846.0,Y=641.0 (should be at cap-height 640?)
+
+	* scaron (U+0161): X=205.0,Y=639.0 (should be at cap-height 640?)
+
+	* scaron (U+0161): X=325.0,Y=639.0 (should be at cap-height 640?)
+
+	* Uhungarumlaut (U+0170): X=333.0,Y=800.0 (should be at ascender 802?)
+
+	* Uhungarumlaut (U+0170): X=413.0,Y=800.0 (should be at ascender 802?)
+
+	* Zdotaccent (U+017B): X=519.0,Y=1.0 (should be at baseline 0?)
+
+	* Zdotaccent (U+017B): X=67.0,Y=641.0 (should be at cap-height 640?)
+
+	* Zdotaccent (U+017B): X=514.0,Y=641.0 (should be at cap-height 640?)
+
+	* zdotaccent (U+017C): X=495.0,Y=1.0 (should be at baseline 0?)
+
+	* zdotaccent (U+017C): X=281.0,Y=641.0 (should be at cap-height 640?)
+
+	* uni01C7 (U+01C7): X=80.0,Y=639.0 (should be at cap-height 640?)
+
+	* uni01C8 (U+01C8): X=80.0,Y=639.0 (should be at cap-height 640?)
+
+	* uni022F (U+022F): X=287.0,Y=641.0 (should be at cap-height 640?)
+
+	* dotaccent (U+02D9): X=364.0,Y=641.0 (should be at cap-height 640?)
+
+	* perthousand (U+2030): X=683.0,Y=639.0 (should be at cap-height 640?)
+
+	* Euro (U+20AC): X=432.0,Y=639.0 (should be at cap-height 640?)
+
+	* uni2215 (U+2215): X=64.0,Y=1.0 (should be at baseline 0?)
+
+	* notequal (U+2260): X=69.0,Y=1.0 (should be at baseline 0?)
+
+	* uniF00E (U+F00E): X=374.0,Y=1.0 (should be at baseline 0?)
+
+	* uniF00E (U+F00E): X=369.0,Y=638.0 (should be at cap-height 640?)
+
+	* uniF010 (U+F010): X=26.0,Y=638.0 (should be at cap-height 640?)
+
+	* uniF013 (U+F013): X=75.0,Y=641.0 (should be at cap-height 640?)
+
+	* uniF016 (U+F016): X=295.0,Y=642.0 (should be at cap-height 640?)
+
+	* uniF018 (U+F018): X=643.0,Y=1.0 (should be at baseline 0?)
+
+	* uniF021 (U+F021): X=79.0,Y=1.0 (should be at baseline 0?)
+
+	* uniF022 (U+F022): X=588.0,Y=641.0 (should be at cap-height 640?)
+
+	* uniF022 (U+F022): X=80.0,Y=1.0 (should be at baseline 0?)
+
+	* uniF022 (U+F022): X=108.0,Y=641.0 (should be at cap-height 640?)
+
+	* uniF022 (U+F022): X=588.0,Y=641.0 (should be at cap-height 640?)
+
+	* uniF025 (U+F025): X=24.0,Y=641.0 (should be at cap-height 640?)
+
+	* uniF025 (U+F025): X=475.0,Y=641.0 (should be at cap-height 640?)
+
+	* uniF031 (U+F031): X=367.0,Y=639.0 (should be at cap-height 640?)
+
+	* uniF03D (U+F03D): X=58.0,Y=638.0 (should be at cap-height 640?)
+
+	* uniF03F (U+F03F): X=687.0,Y=2.0 (should be at baseline 0?)
+
+	* uniF03F (U+F03F): X=47.0,Y=642.0 (should be at cap-height 640?)
+
+	* uniF040 (U+F040): X=570.0,Y=639.0 (should be at cap-height 640?)
+
+	* uniF040 (U+F040): X=487.0,Y=639.0 (should be at cap-height 640?)
+
+	* uniF040 (U+F040): X=240.0,Y=639.0 (should be at cap-height 640?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -564,8 +775,6 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 	* germandbls (U+00DF): L<<86.0,481.0>--<227.0,481.0>> -> L<<227.0,481.0>--<230.0,481.0>>
 
 	* nine (U+0039): L<<451.0,460.0>--<451.0,458.0>> -> L<<451.0,458.0>--<451.0,453.0>>
-
-	* registered (U+00AE): L<<344.0,379.0>--<341.0,379.0>> -> L<<341.0,379.0>--<229.0,379.0>>
 
 	* uni0123 (U+0123): L<<296.0,160.0>--<293.0,160.0>> -> L<<293.0,160.0>--<164.0,160.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -600,8 +809,8 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 11 | 12 | 126 | 8 | 98 | 0 |
-| 0% | 4% | 5% | 49% | 3% | 38% | 0% |
+| 0 | 13 | 13 | 126 | 8 | 95 | 0 |
+| 0% | 5% | 5% | 49% | 3% | 37% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
