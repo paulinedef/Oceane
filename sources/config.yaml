@@ -1,7 +1,8 @@
 sources:
   - Oceane.glyphs
+  - Oceane-Light.glyphs
 axisOrder:
   - wght
 familyName: Oceane
 
-outputDir: "../fonts"
+//outputDir: "../fonts"
