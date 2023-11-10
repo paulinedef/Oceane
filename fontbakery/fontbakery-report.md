@@ -122,11 +122,7 @@ fontbakery version: 0.10.3
 * 🔥 **FAIL** The following unacceptable control characters were identified:
  fonts/ttf/Oceane-Light.ttf: uni000A
  [code: unacceptable]
-</div></details><br></div></details><details><summary><b>[25] Oceane-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
-
-
-* 🔥 **FAIL** Expected "Oceane-Regular.ttf. Got Oceane-Light.ttf. [code: bad-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[21] Oceane-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -274,19 +270,10 @@ fontbakery version: 0.10.3
 
 	- 0x02DB (OGONEK)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
-
-
-* 🔥 **FAIL** Best SubFamily name is 'Regular'. Expected OS/2 usWeightClass is 400, got 300. [code: bad-value]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font has all mandatory 'name' table entries? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/mandatory_entries">com.google.fonts/check/name/mandatory_entries</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font lacks entry with nameId=16 (TYPOGRAPHIC_FAMILY_NAME) [code: missing-entry]
-* 🔥 **FAIL** Font lacks entry with nameId=17 (TYPOGRAPHIC_SUBFAMILY_NAME) [code: missing-entry]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
 
 
@@ -415,7 +402,7 @@ The following glyphs do not have the recommended number of contours:
     definitions.
 
  * U+000A : try adding symbols
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
  * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
@@ -426,7 +413,7 @@ The following glyphs do not have the recommended number of contours:
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
  * U+2078 SUPERSCRIPT EIGHT: not included in any glyphset definition
- * U+2219 BULLET OPERATOR: try adding one of: math, yi, symbols, tai-tham
+ * U+2219 BULLET OPERATOR: try adding one of: yi, math, tai-tham, symbols
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
@@ -528,7 +515,7 @@ Width = 348:
 plus
 
 Width = 326:
-equal, notequal
+notequal, equal
 
 Width = 572:
 logicalnot
@@ -549,7 +536,7 @@ Width = 569:
 approxequal
 
 Width = 256:
-greaterequal, lessequal
+lessequal, greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font have a DSIG table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/dsig.html#com.google.fonts/check/dsig">com.google.fonts/check/dsig</a>)</summary><div>
 
@@ -561,204 +548,6 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 uni0326 (U+0326) and uni0326.salt (unencoded) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* numbersign (U+0023): X=282.0,Y=1.0 (should be at baseline 0?)
-
-	* numbersign (U+0023): X=68.0,Y=1.0 (should be at baseline 0?)
-
-	* percent (U+0025): X=683.0,Y=639.0 (should be at cap-height 640?)
-
-	* ampersand (U+0026): X=289.0,Y=1.0 (should be at baseline 0?)
-
-	* slash (U+002F): X=64.0,Y=1.0 (should be at baseline 0?)
-
-	* one (U+0031): X=240.0,Y=639.0 (should be at cap-height 640?)
-
-	* one (U+0031): X=240.0,Y=639.0 (should be at cap-height 640?)
-
-	* two (U+0032): X=296.0,Y=639.0 (should be at cap-height 640?)
-
-	* four (U+0034): X=387.0,Y=641.0 (should be at cap-height 640?)
-
-	* five (U+0035): X=112.0,Y=639.0 (should be at cap-height 640?)
-
-	* five (U+0035): X=428.0,Y=639.0 (should be at cap-height 640?)
-
-	* seven (U+0037): X=477.0,Y=641.0 (should be at cap-height 640?)
-
-	* L (U+004C): X=80.0,Y=639.0 (should be at cap-height 640?)
-
-	* U (U+0055): X=246.0,Y=1.0 (should be at baseline 0?)
-
-	* Z (U+005A): X=519.0,Y=1.0 (should be at baseline 0?)
-
-	* Z (U+005A): X=67.0,Y=641.0 (should be at cap-height 640?)
-
-	* Z (U+005A): X=514.0,Y=641.0 (should be at cap-height 640?)
-
-	* backslash (U+005C): X=251.0,Y=1.0 (should be at baseline 0?)
-
-	* b (U+0062): X=312.0,Y=481.0 (should be at x-height 480?)
-
-	* b (U+0062): X=312.0,Y=1.0 (should be at baseline 0?)
-
-	* b (U+0062): X=72.0,Y=1.0 (should be at baseline 0?)
-
-	* b (U+0062): X=312.0,Y=481.0 (should be at x-height 480?)
-
-	* c (U+0063): X=288.0,Y=482.0 (should be at x-height 480?)
-
-	* e (U+0065): X=287.0,Y=481.0 (should be at x-height 480?)
-
-	* k (U+006B): X=391.0,Y=-1.0 (should be at baseline 0?)
-
-	* k (U+006B): X=395.0,Y=479.0 (should be at x-height 480?)
-
-	* n (U+006E): X=286.0,Y=479.0 (should be at x-height 480?)
-
-	* n (U+006E): X=286.0,Y=479.0 (should be at x-height 480?)
-
-	* z (U+007A): X=495.0,Y=1.0 (should be at baseline 0?)
-
-	* cent (U+00A2): X=125.0,Y=1.0 (should be at baseline 0?)
-
-	* sterling (U+00A3): X=323.0,Y=642.0 (should be at cap-height 640?)
-
-	* copyright (U+00A9): X=307.0,Y=639.0 (should be at cap-height 640?)
-
-	* copyright (U+00A9): X=307.0,Y=639.0 (should be at cap-height 640?)
-
-	* registered (U+00AE): X=307.0,Y=639.0 (should be at cap-height 640?)
-
-	* registered (U+00AE): X=307.0,Y=639.0 (should be at cap-height 640?)
-
-	* twosuperior (U+00B2): X=180.5,Y=639.5 (should be at cap-height 640?)
-
-	* paragraph (U+00B6): X=225.0,Y=641.0 (should be at cap-height 640?)
-
-	* paragraph (U+00B6): X=423.0,Y=641.0 (should be at cap-height 640?)
-
-	* onesuperior (U+00B9): X=87.0,Y=638.0 (should be at cap-height 640?)
-
-	* onesuperior (U+00B9): X=47.0,Y=638.0 (should be at cap-height 640?)
-
-	* Ccedilla (U+00C7): X=334.0,Y=2.0 (should be at baseline 0?)
-
-	* germandbls (U+00DF): X=100.0,Y=1.0 (should be at baseline 0?)
-
-	* ccedilla (U+00E7): X=280.0,Y=-1.0 (should be at baseline 0?)
-
-	* egrave (U+00E8): X=257.0,Y=638.0 (should be at cap-height 640?)
-
-	* eacute (U+00E9): X=317.0,Y=638.0 (should be at cap-height 640?)
-
-	* igrave (U+00EC): X=27.0,Y=638.0 (should be at cap-height 640?)
-
-	* iacute (U+00ED): X=152.0,Y=638.0 (should be at cap-height 640?)
-
-	* ograve (U+00F2): X=257.0,Y=638.0 (should be at cap-height 640?)
-
-	* oacute (U+00F3): X=317.0,Y=638.0 (should be at cap-height 640?)
-
-	* Ccircumflex (U+0108): X=321.0,Y=801.0 (should be at ascender 802?)
-
-	* cdotaccent (U+010B): X=254.0,Y=641.0 (should be at cap-height 640?)
-
-	* edotaccent (U+0117): X=286.0,Y=641.0 (should be at cap-height 640?)
-
-	* gdotaccent (U+0121): X=288.0,Y=641.0 (should be at cap-height 640?)
-
-	* uni0123 (U+0123): X=291.0,Y=800.0 (should be at ascender 802?)
-
-	* uni0137 (U+0137): X=391.0,Y=-1.0 (should be at baseline 0?)
-
-	* kgreenlandic (U+0138): X=391.0,Y=-1.0 (should be at baseline 0?)
-
-	* Lacute (U+0139): X=80.0,Y=639.0 (should be at cap-height 640?)
-
-	* uni013B (U+013B): X=80.0,Y=639.0 (should be at cap-height 640?)
-
-	* Ldot (U+013F): X=80.0,Y=639.0 (should be at cap-height 640?)
-
-	* OE (U+0152): X=846.0,Y=1.0 (should be at baseline 0?)
-
-	* OE (U+0152): X=446.0,Y=1.0 (should be at baseline 0?)
-
-	* OE (U+0152): X=446.0,Y=641.0 (should be at cap-height 640?)
-
-	* OE (U+0152): X=846.0,Y=641.0 (should be at cap-height 640?)
-
-	* scaron (U+0161): X=205.0,Y=639.0 (should be at cap-height 640?)
-
-	* scaron (U+0161): X=325.0,Y=639.0 (should be at cap-height 640?)
-
-	* Uhungarumlaut (U+0170): X=333.0,Y=800.0 (should be at ascender 802?)
-
-	* Uhungarumlaut (U+0170): X=413.0,Y=800.0 (should be at ascender 802?)
-
-	* Zdotaccent (U+017B): X=519.0,Y=1.0 (should be at baseline 0?)
-
-	* Zdotaccent (U+017B): X=67.0,Y=641.0 (should be at cap-height 640?)
-
-	* Zdotaccent (U+017B): X=514.0,Y=641.0 (should be at cap-height 640?)
-
-	* zdotaccent (U+017C): X=495.0,Y=1.0 (should be at baseline 0?)
-
-	* zdotaccent (U+017C): X=281.0,Y=641.0 (should be at cap-height 640?)
-
-	* dotaccent (U+02D9): X=364.0,Y=641.0 (should be at cap-height 640?)
-
-	* perthousand (U+2030): X=683.0,Y=639.0 (should be at cap-height 640?)
-
-	* Euro (U+20AC): X=432.0,Y=639.0 (should be at cap-height 640?)
-
-	* uni2215 (U+2215): X=64.0,Y=1.0 (should be at baseline 0?)
-
-	* notequal (U+2260): X=69.0,Y=1.0 (should be at baseline 0?)
-
-	* uniF00E (U+F00E): X=374.0,Y=1.0 (should be at baseline 0?)
-
-	* uniF00E (U+F00E): X=369.0,Y=638.0 (should be at cap-height 640?)
-
-	* uniF010 (U+F010): X=26.0,Y=638.0 (should be at cap-height 640?)
-
-	* uniF013 (U+F013): X=75.0,Y=641.0 (should be at cap-height 640?)
-
-	* uniF016 (U+F016): X=295.0,Y=642.0 (should be at cap-height 640?)
-
-	* uniF018 (U+F018): X=643.0,Y=1.0 (should be at baseline 0?)
-
-	* uniF021 (U+F021): X=79.0,Y=1.0 (should be at baseline 0?)
-
-	* uniF022 (U+F022): X=588.0,Y=641.0 (should be at cap-height 640?)
-
-	* uniF022 (U+F022): X=80.0,Y=1.0 (should be at baseline 0?)
-
-	* uniF022 (U+F022): X=108.0,Y=641.0 (should be at cap-height 640?)
-
-	* uniF022 (U+F022): X=588.0,Y=641.0 (should be at cap-height 640?)
-
-	* uniF025 (U+F025): X=24.0,Y=641.0 (should be at cap-height 640?)
-
-	* uniF025 (U+F025): X=475.0,Y=641.0 (should be at cap-height 640?)
-
-	* uniF031 (U+F031): X=367.0,Y=639.0 (should be at cap-height 640?)
-
-	* uniF03D (U+F03D): X=58.0,Y=638.0 (should be at cap-height 640?)
-
-	* uniF03F (U+F03F): X=687.0,Y=2.0 (should be at baseline 0?)
-
-	* uniF03F (U+F03F): X=47.0,Y=642.0 (should be at cap-height 640?)
-
-	* uniF040 (U+F040): X=570.0,Y=639.0 (should be at cap-height 640?)
-
-	* uniF040 (U+F040): X=487.0,Y=639.0 (should be at cap-height 640?)
-
-	* uniF040 (U+F040): X=240.0,Y=639.0 (should be at cap-height 640?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -775,6 +564,8 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 	* germandbls (U+00DF): L<<86.0,481.0>--<227.0,481.0>> -> L<<227.0,481.0>--<230.0,481.0>>
 
 	* nine (U+0039): L<<451.0,460.0>--<451.0,458.0>> -> L<<451.0,458.0>--<451.0,453.0>>
+
+	* registered (U+00AE): L<<344.0,379.0>--<341.0,379.0>> -> L<<341.0,379.0>--<229.0,379.0>>
 
 	* uni0123 (U+0123): L<<296.0,160.0>--<293.0,160.0>> -> L<<293.0,160.0>--<164.0,160.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -809,8 +600,8 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 14 | 13 | 126 | 8 | 94 | 0 |
-| 0% | 5% | 5% | 49% | 3% | 37% | 0% |
+| 0 | 11 | 12 | 126 | 8 | 98 | 0 |
+| 0% | 4% | 5% | 49% | 3% | 38% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
