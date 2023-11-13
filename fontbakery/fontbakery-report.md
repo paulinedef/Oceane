@@ -184,7 +184,6 @@ fontbakery version: 0.10.3
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
-* 🔥 **FAIL** Glyph "amacron" has a legacy accent component (macron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "abreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "Aogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "aogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
@@ -269,17 +268,17 @@ fontbakery version: 0.10.3
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
  * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
  * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
- * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: greek, elbasan, math
- * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, elbasan, math
- * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
- * U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math
+ * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, elbasan, greek
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek
  * U+201B SINGLE HIGH-REVERSED-9 QUOTATION MARK: try adding adlam
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
@@ -289,7 +288,7 @@ fontbakery version: 0.10.3
  * U+2202 PARTIAL DIFFERENTIAL: try adding math
  * U+220F N-ARY PRODUCT: try adding math
  * U+2211 N-ARY SUMMATION: try adding math
- * U+2219 BULLET OPERATOR: try adding one of: math, tai-tham, yi, symbols
+ * U+2219 BULLET OPERATOR: try adding one of: symbols, tai-tham, yi, math
  * U+221A SQUARE ROOT: try adding math
  * U+221E INFINITY: try adding math
  * U+222B INTEGRAL: try adding math
@@ -297,7 +296,7 @@ fontbakery version: 0.10.3
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CA LOZENGE: try adding one of: math, symbols
+ * U+25CA LOZENGE: try adding one of: symbols, math
  * U+F005 : not included in any glyphset definition
  * U+F006 : not included in any glyphset definition
  * U+F008 : not included in any glyphset definition
@@ -496,12 +495,6 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* R (U+0052): L<<430.0,301.0>--<421.0,301.0>> -> L<<421.0,301.0>--<107.0,301.0>>
-
-	* Racute (U+0154): L<<430.0,301.0>--<421.0,301.0>> -> L<<421.0,301.0>--<107.0,301.0>>
-
-	* Rcaron (U+0158): L<<430.0,301.0>--<421.0,301.0>> -> L<<421.0,301.0>--<107.0,301.0>>
-
 	* g (U+0067): L<<296.0,160.0>--<293.0,160.0>> -> L<<293.0,160.0>--<164.0,160.0>>
 
 	* gbreve (U+011F): L<<296.0,160.0>--<293.0,160.0>> -> L<<293.0,160.0>--<164.0,160.0>>
@@ -512,15 +505,9 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 	* germandbls (U+00DF): L<<86.0,481.0>--<227.0,481.0>> -> L<<227.0,481.0>--<230.0,481.0>>
 
-	* m (U+006D): L<<73.0,0.0>--<73.0,280.0>> -> L<<73.0,280.0>--<73.0,452.0>>
-
 	* nine (U+0039): L<<451.0,460.0>--<451.0,458.0>> -> L<<451.0,458.0>--<451.0,453.0>>
 
-	* registered (U+00AE): L<<344.0,379.0>--<341.0,379.0>> -> L<<341.0,379.0>--<229.0,379.0>>
-
-	* uni0123 (U+0123): L<<296.0,160.0>--<293.0,160.0>> -> L<<293.0,160.0>--<164.0,160.0>>
-
-	* uni0156 (U+0156): L<<430.0,301.0>--<421.0,301.0>> -> L<<421.0,301.0>--<107.0,301.0>> [code: found-colinear-vectors]
+	* uni0123 (U+0123): L<<296.0,160.0>--<293.0,160.0>> -> L<<293.0,160.0>--<164.0,160.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
