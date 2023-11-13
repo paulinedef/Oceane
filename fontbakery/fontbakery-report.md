@@ -116,7 +116,7 @@ fontbakery version: 0.10.3
 * ⚠ **WARN** GF_Latin_Core/dyo_Latn (Jola-Fonyi): [WARN: No variant glyphs were found for .notdef] [code: warning-language-shaping]
 * ⚠ **WARN** GF_Latin_Core/ny_Latn (Nyanja): [WARN: No variant glyphs were found for .notdef] [code: warning-language-shaping]
 * ⚠ **WARN** GF_Latin_Core/wo_Latn (Wolof): [WARN: No variant glyphs were found for .notdef] [code: warning-language-shaping]
-</div></details><br></div></details><details><summary><b>[24] Oceane-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[23] Oceane-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -180,16 +180,9 @@ fontbakery version: 0.10.3
 </div></details><details><summary>🔥 <b>FAIL:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
-* 🔥 **FAIL** Licensing inconsistency in name table entries! NameID=13 (LICENSE DESCRIPTION) indicates Open Font licensing, but NameID=14 (LICENSE URL) has 'www.paulinedefoort.com/licence-oceane'. Expected: 'https://scripts.sil.org/OFL' [code: licensing-inconsistency]
 * 🔥 **FAIL** A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry. Currently accepted licenses are Apache: 'https://www.apache.org/licenses/LICENSE-2.0' or Open Font License: 'https://scripts.sil.org/OFL'
 For a small set of legacy families the Ubuntu Font License 'https://www.ubuntu.com/legal/terms-and-policies/font-licence' may be acceptable as well.
 When in doubt, please choose OFL for new font projects. [code: no-license-found]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright The Oceane Project Authors https://github.com/paulinedef." [code: bad-notice-format]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
 
 
@@ -310,7 +303,7 @@ or inverted outline direction:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
  * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
  * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
@@ -330,7 +323,7 @@ or inverted outline direction:
  * U+2202 PARTIAL DIFFERENTIAL: try adding math
  * U+220F N-ARY PRODUCT: try adding math
  * U+2211 N-ARY SUMMATION: try adding math
- * U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, symbols, math
+ * U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols
  * U+221A SQUARE ROOT: try adding math
  * U+221E INFINITY: try adding math
  * U+222B INTEGRAL: try adding math
@@ -338,7 +331,7 @@ or inverted outline direction:
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CA LOZENGE: try adding one of: math, symbols
  * U+F005 : not included in any glyphset definition
  * U+F006 : not included in any glyphset definition
  * U+F008 : not included in any glyphset definition
@@ -499,7 +492,7 @@ Width = 348:
 plus
 
 Width = 326:
-equal, notequal
+notequal, equal
 
 Width = 572:
 logicalnot
@@ -592,7 +585,7 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 11 | 14 | 125 | 8 | 97 | 0 |
+| 0 | 10 | 14 | 125 | 8 | 98 | 0 |
 | 0% | 4% | 5% | 49% | 3% | 38% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
