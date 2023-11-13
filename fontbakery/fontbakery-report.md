@@ -116,7 +116,7 @@ fontbakery version: 0.10.3
 * ⚠ **WARN** GF_Latin_Core/dyo_Latn (Jola-Fonyi): [WARN: No variant glyphs were found for .notdef] [code: warning-language-shaping]
 * ⚠ **WARN** GF_Latin_Core/ny_Latn (Nyanja): [WARN: No variant glyphs were found for .notdef] [code: warning-language-shaping]
 * ⚠ **WARN** GF_Latin_Core/wo_Latn (Wolof): [WARN: No variant glyphs were found for .notdef] [code: warning-language-shaping]
-</div></details><br></div></details><details><summary><b>[23] Oceane-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[24] Oceane-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -190,7 +190,8 @@ When in doubt, please choose OFL for new font projects. [code: no-license-found]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1042 when it should be at least 1200 [code: bad-hhea-range]
+* 🔥 **FAIL** OS/2.sTypoLineGap is "20" it should be 0 [code: bad-OS/2.sTypoLineGap]
+* 🔥 **FAIL** hhea.lineGap is "20" it should be 0 [code: bad-hhea.lineGap]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
@@ -303,15 +304,15 @@ or inverted outline direction:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
  * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
- * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, greek, math
- * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, greek, math
+ * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, greek, elbasan
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, greek, elbasan
  * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
  * U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math
  * U+201B SINGLE HIGH-REVERSED-9 QUOTATION MARK: try adding adlam
@@ -323,7 +324,7 @@ or inverted outline direction:
  * U+2202 PARTIAL DIFFERENTIAL: try adding math
  * U+220F N-ARY PRODUCT: try adding math
  * U+2211 N-ARY SUMMATION: try adding math
- * U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols
+ * U+2219 BULLET OPERATOR: try adding one of: yi, tai-tham, symbols, math
  * U+221A SQUARE ROOT: try adding math
  * U+221E INFINITY: try adding math
  * U+222B INTEGRAL: try adding math
@@ -331,7 +332,7 @@ or inverted outline direction:
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CA LOZENGE: try adding one of: math, symbols
+ * U+25CA LOZENGE: try adding one of: symbols, math
  * U+F005 : not included in any glyphset definition
  * U+F006 : not included in any glyphset definition
  * U+F008 : not included in any glyphset definition
@@ -492,7 +493,7 @@ Width = 348:
 plus
 
 Width = 326:
-notequal, equal
+equal, notequal
 
 Width = 572:
 logicalnot
@@ -513,8 +514,12 @@ Width = 569:
 approxequal
 
 Width = 256:
-lessequal, greaterequal
+greaterequal, lessequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
+
+
+* ⚠ **WARN** hhea lineGap is not equal to 0. [code: hhea]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
 
@@ -534,6 +539,12 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
+	* R (U+0052): L<<430.0,301.0>--<421.0,301.0>> -> L<<421.0,301.0>--<107.0,301.0>>
+
+	* Racute (U+0154): L<<430.0,301.0>--<421.0,301.0>> -> L<<421.0,301.0>--<107.0,301.0>>
+
+	* Rcaron (U+0158): L<<430.0,301.0>--<421.0,301.0>> -> L<<421.0,301.0>--<107.0,301.0>>
+
 	* g (U+0067): L<<296.0,160.0>--<293.0,160.0>> -> L<<293.0,160.0>--<164.0,160.0>>
 
 	* gbreve (U+011F): L<<296.0,160.0>--<293.0,160.0>> -> L<<293.0,160.0>--<164.0,160.0>>
@@ -544,9 +555,15 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 	* germandbls (U+00DF): L<<86.0,481.0>--<227.0,481.0>> -> L<<227.0,481.0>--<230.0,481.0>>
 
+	* m (U+006D): L<<73.0,0.0>--<73.0,280.0>> -> L<<73.0,280.0>--<73.0,452.0>>
+
 	* nine (U+0039): L<<451.0,460.0>--<451.0,458.0>> -> L<<451.0,458.0>--<451.0,453.0>>
 
-	* uni0123 (U+0123): L<<296.0,160.0>--<293.0,160.0>> -> L<<293.0,160.0>--<164.0,160.0>> [code: found-colinear-vectors]
+	* registered (U+00AE): L<<344.0,379.0>--<341.0,379.0>> -> L<<341.0,379.0>--<229.0,379.0>>
+
+	* uni0123 (U+0123): L<<296.0,160.0>--<293.0,160.0>> -> L<<293.0,160.0>--<164.0,160.0>>
+
+	* uni0156 (U+0156): L<<430.0,301.0>--<421.0,301.0>> -> L<<421.0,301.0>--<107.0,301.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -585,8 +602,8 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 10 | 14 | 125 | 8 | 98 | 0 |
-| 0% | 4% | 5% | 49% | 3% | 38% | 0% |
+| 0 | 10 | 15 | 125 | 8 | 97 | 0 |
+| 0% | 4% | 6% | 49% | 3% | 38% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
