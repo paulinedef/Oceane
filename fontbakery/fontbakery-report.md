@@ -185,58 +185,62 @@ fontbakery version: 0.10.3
 
 
 * 🔥 **FAIL** Glyph "aogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "ccircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "cdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "Ccaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "ccaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "dcroat" has a legacy accent component (macron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "emacron" has a legacy accent component (macron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "ebreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "edotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "Eogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "eogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "ecaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "Gcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "gcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "gbreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "gdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "Hcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "hcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "Hbar" has a legacy accent component (macron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "hbar" has a legacy accent component (macron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "Itilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "imacron" has a legacy accent component (macron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "Iogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "iogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "jcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "ncaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "omacron" has a legacy accent component (macron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "obreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "ohungarumlaut" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "Rcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "Scircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "scircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "Scedilla" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "scedilla" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "Tbar" has a legacy accent component (macron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "umacron" has a legacy accent component (macron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "ubreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "uring" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "Uhungarumlaut" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "uhungarumlaut" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "Uogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "Wcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "wcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "Ycircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "ycircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "zdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "uni01CE" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "uni01D0" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "uni01D2" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "uni01D4" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "uni022F" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "Wdieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "wdieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* 🔥 **FAIL** The following glyphs have no contours even though they were expected to have some:
+
+	- Glyph name: wdieresis	Expected: 3
+
+	- Glyph name: wdieresis	Expected: 3
+ [code: no-contour]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: at	Contours detected: 3	Expected: 2
+
+	- Glyph name: onehalf	Contours detected: 7	Expected: 3
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: Cacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: jcircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 1	Expected: 2
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0237	Contours detected: 2	Expected: 1
+
+	- Glyph name: infinity	Contours detected: 2	Expected: 3
+
+	- Glyph name: Cacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: at	Contours detected: 3	Expected: 2
+
+	- Glyph name: infinity	Contours detected: 2	Expected: 3
+
+	- Glyph name: jcircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 1	Expected: 2
+
+	- Glyph name: onehalf	Contours detected: 7	Expected: 3
+
+	- Glyph name: uni0237	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -251,17 +255,17 @@ fontbakery version: 0.10.3
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
  * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
- * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: greek, math, elbasan
- * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, math, elbasan
- * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
- * U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi
+ * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, greek, elbasan
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, greek, elbasan
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi
  * U+201B SINGLE HIGH-REVERSED-9 QUOTATION MARK: try adding adlam
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
@@ -271,7 +275,7 @@ fontbakery version: 0.10.3
  * U+2202 PARTIAL DIFFERENTIAL: try adding math
  * U+220F N-ARY PRODUCT: try adding math
  * U+2211 N-ARY SUMMATION: try adding math
- * U+2219 BULLET OPERATOR: try adding one of: math, yi, tai-tham, symbols
+ * U+2219 BULLET OPERATOR: try adding one of: math, symbols, yi, tai-tham
  * U+221A SQUARE ROOT: try adding math
  * U+221E INFINITY: try adding math
  * U+222B INTEGRAL: try adding math
@@ -359,73 +363,14 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- dieresis.case
 
+	- hungarumlaut.case
+
+	- ring.case
+
 	- tilde.case
 
 	- uni0326.salt
  [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: at	Contours detected: 3	Expected: 2
-
-	- Glyph name: onehalf	Contours detected: 7	Expected: 3
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: Cacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: jcircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: lcaron	Contours detected: 1	Expected: 2
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0237	Contours detected: 2	Expected: 1
-
-	- Glyph name: infinity	Contours detected: 2	Expected: 3
-
-	- Glyph name: Cacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: at	Contours detected: 3	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: infinity	Contours detected: 2	Expected: 3
-
-	- Glyph name: jcircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: lcaron	Contours detected: 1	Expected: 2
-
-	- Glyph name: onehalf	Contours detected: 7	Expected: 3
-
-	- Glyph name: uni0237	Contours detected: 2	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
- [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
 
 
@@ -440,7 +385,7 @@ Width = 348:
 plus
 
 Width = 326:
-notequal, equal
+equal, notequal
 
 Width = 572:
 logicalnot
@@ -461,7 +406,7 @@ Width = 569:
 approxequal
 
 Width = 256:
-greaterequal, lessequal
+lessequal, greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
@@ -504,7 +449,73 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 	* uni0123 (U+0123): L<<296.0,160.0>--<293.0,160.0>> -> L<<293.0,160.0>--<164.0,160.0>>
 
-	* uni0156 (U+0156): L<<430.0,301.0>--<421.0,301.0>> -> L<<421.0,301.0>--<107.0,301.0>> [code: found-colinear-vectors]
+	* uni0156 (U+0156): L<<430.0,301.0>--<421.0,301.0>> -> L<<421.0,301.0>--<107.0,301.0>>
+
+	* w (U+0077): L<<397.0,391.0>--<399.0,391.0>> -> L<<399.0,391.0>--<400.0,391.0>>
+
+	* w (U+0077): L<<541.0,7.0>--<540.0,9.0>> -> L<<540.0,9.0>--<394.0,349.0>>
+
+	* w (U+0077): L<<550.0,1.0>--<549.0,1.0>> -> L<<549.0,1.0>--<547.0,1.0>>
+
+	* w (U+0077): L<<552.0,0.0>--<551.0,0.0>> -> L<<551.0,0.0>--<550.0,0.0>>
+
+	* w (U+0077): L<<553.0,0.0>--<552.0,0.0>> -> L<<552.0,0.0>--<551.0,0.0>>
+
+	* w (U+0077): L<<554.0,0.0>--<553.0,0.0>> -> L<<553.0,0.0>--<552.0,0.0>>
+
+	* w (U+0077): L<<757.0,480.0>--<758.0,480.0>> -> L<<758.0,480.0>--<763.0,480.0>>
+
+	* wacute (U+1E83): L<<396.0,391.0>--<397.0,391.0>> -> L<<397.0,391.0>--<399.0,391.0>>
+
+	* wacute (U+1E83): L<<397.0,391.0>--<399.0,391.0>> -> L<<399.0,391.0>--<400.0,391.0>>
+
+	* wacute (U+1E83): L<<553.0,0.0>--<551.0,0.0>> -> L<<551.0,0.0>--<550.0,0.0>>
+
+	* wacute (U+1E83): L<<554.0,0.0>--<553.0,0.0>> -> L<<553.0,0.0>--<551.0,0.0>>
+
+	* wacute (U+1E83): L<<555.0,0.0>--<554.0,0.0>> -> L<<554.0,0.0>--<553.0,0.0>>
+
+	* wacute (U+1E83): L<<556.0,0.0>--<555.0,0.0>> -> L<<555.0,0.0>--<554.0,0.0>>
+
+	* wacute (U+1E83): L<<566.0,8.0>--<566.0,7.0>> -> L<<566.0,7.0>--<566.0,6.0>>
+
+	* wacute (U+1E83): L<<757.0,480.0>--<758.0,480.0>> -> L<<758.0,480.0>--<760.0,480.0>>
+
+	* wacute (U+1E83): L<<758.0,480.0>--<760.0,480.0>> -> L<<760.0,480.0>--<761.0,480.0>>
+
+	* wacute (U+1E83): L<<760.0,480.0>--<761.0,480.0>> -> L<<761.0,480.0>--<763.0,480.0>>
+
+	* wcircumflex (U+0175): L<<233.0,0.0>--<232.0,0.0>> -> L<<232.0,0.0>--<231.0,0.0>>
+
+	* wcircumflex (U+0175): L<<387.0,391.0>--<391.0,391.0>> -> L<<391.0,391.0>--<392.0,391.0>>
+
+	* wcircumflex (U+0175): L<<553.0,0.0>--<552.0,0.0>> -> L<<552.0,0.0>--<550.0,0.0>>
+
+	* wcircumflex (U+0175): L<<554.0,0.0>--<553.0,0.0>> -> L<<553.0,0.0>--<552.0,0.0>>
+
+	* wcircumflex (U+0175): L<<566.0,8.0>--<566.0,7.0>> -> L<<566.0,7.0>--<566.0,6.0>>
+
+	* wcircumflex (U+0175): L<<724.0,460.0>--<726.0,462.0>> -> L<<726.0,462.0>--<734.0,470.0>>
+
+	* wcircumflex (U+0175): L<<726.0,462.0>--<734.0,470.0>> -> L<<734.0,470.0>--<735.0,471.0>>
+
+	* wcircumflex (U+0175): L<<757.0,480.0>--<760.0,480.0>> -> L<<760.0,480.0>--<761.0,480.0>>
+
+	* wcircumflex (U+0175): L<<760.0,480.0>--<761.0,480.0>> -> L<<761.0,480.0>--<763.0,480.0>>
+
+	* wgrave (U+1E81): L<<553.0,0.0>--<551.0,0.0>> -> L<<551.0,0.0>--<550.0,0.0>>
+
+	* wgrave (U+1E81): L<<555.0,0.0>--<554.0,0.0>> -> L<<554.0,0.0>--<553.0,0.0>>
+
+	* wgrave (U+1E81): L<<556.0,0.0>--<555.0,0.0>> -> L<<555.0,0.0>--<554.0,0.0>>
+
+	* wgrave (U+1E81): L<<566.0,8.0>--<566.0,7.0>> -> L<<566.0,7.0>--<566.0,6.0>>
+
+	* wgrave (U+1E81): L<<752.0,479.0>--<753.0,479.0>> -> L<<753.0,479.0>--<755.0,479.0>>
+
+	* wgrave (U+1E81): L<<753.0,479.0>--<755.0,479.0>> -> L<<755.0,479.0>--<756.0,479.0>>
+
+	* wgrave (U+1E81): L<<757.0,480.0>--<758.0,480.0>> -> L<<758.0,480.0>--<763.0,480.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -543,7 +554,7 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 4 | 14 | 125 | 9 | 103 | 0 |
+| 0 | 5 | 13 | 125 | 9 | 103 | 0 |
 | 0% | 2% | 5% | 49% | 4% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
