@@ -184,21 +184,17 @@ fontbakery version: 0.10.3
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
-* 🔥 **FAIL** Glyph "Aogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "aogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "Cacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "ccircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "cdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "Ccaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "ccaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "Dcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "dcroat" has a legacy accent component (macron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "emacron" has a legacy accent component (macron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "ebreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "edotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "Eogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "eogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-* 🔥 **FAIL** Glyph "Ecaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "ecaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "Gcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "gcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
@@ -255,17 +251,17 @@ fontbakery version: 0.10.3
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
  * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
- * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, greek, elbasan
- * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, greek, elbasan
- * U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
- * U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi
+ * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: greek, math, elbasan
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, math, elbasan
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi
  * U+201B SINGLE HIGH-REVERSED-9 QUOTATION MARK: try adding adlam
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
@@ -275,7 +271,7 @@ fontbakery version: 0.10.3
  * U+2202 PARTIAL DIFFERENTIAL: try adding math
  * U+220F N-ARY PRODUCT: try adding math
  * U+2211 N-ARY SUMMATION: try adding math
- * U+2219 BULLET OPERATOR: try adding one of: math, symbols, tai-tham, yi
+ * U+2219 BULLET OPERATOR: try adding one of: math, yi, tai-tham, symbols
  * U+221A SQUARE ROOT: try adding math
  * U+221E INFINITY: try adding math
  * U+222B INTEGRAL: try adding math
@@ -380,6 +376,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: Cacute	Contours detected: 3	Expected: 2
+
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
@@ -399,6 +397,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0237	Contours detected: 2	Expected: 1
 
 	- Glyph name: infinity	Contours detected: 2	Expected: 3
+
+	- Glyph name: Cacute	Contours detected: 3	Expected: 2
 
 	- Glyph name: Tbar	Contours detected: 2	Expected: 1
 
@@ -461,7 +461,7 @@ Width = 569:
 approxequal
 
 Width = 256:
-lessequal, greaterequal
+greaterequal, lessequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
